@@ -29,10 +29,14 @@
 	font-size: 10px;
 }
 
+
 html {
 	background: black;
 	overflow-x: hidden;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
 }
+
 
 body {
 	color: var(--main-color);
@@ -703,3 +707,4 @@ nav ul li a {
 
 	text-decoration: none;
 }
+
